@@ -15,7 +15,3 @@ npm i
 
 npm i @chatscope/chat-ui-kit-react
 ```
-
-```code
-import { MainContainer, ChatContainer, MessageList, MessageInput, Message, TypingIndicator} from "@chatscope/chat-ui-kit-react"
-```
