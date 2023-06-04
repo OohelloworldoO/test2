@@ -8,16 +8,10 @@
 
 ```javascript
 npm create vite@latest app -- --template react
-```
 
-```javascript
 cd app
-```
 
-```javascript
 npm i
-```
 
-```javascript
 npm i @chatscope/chat-ui-kit-react
 ```
