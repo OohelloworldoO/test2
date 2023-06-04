@@ -3,7 +3,7 @@
 2.不知道要吃甚麼  
 3.遇到不會的問題找不到老師解答，或是免費的學習資源(有可能是他懶得找?)  
 
-最近chatGPT很紅 我覺得可以用openAI解決他們的問題，所以試著做做看(Vite + React)  
+最近chatGPT很紅 我想試著用openAI寫一個chatbot，使用(Vite + React)  
 也是第一次嘗試用react :D
 
 ```javascript
