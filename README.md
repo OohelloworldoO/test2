@@ -5,6 +5,19 @@
 3.遇到不會的問題找不到老師解答，或是免費的學習資源(有可能是他懶得找?)  
 
 最近chatGPT很紅 我覺得可以用openAI解決他們的問題，所以試著做做看 
+
 ```javascript
 npm create vite@latest app -- --template react
+```
+
+```javascript
+cd app
+```
+
+```javascript
+npm i
+```
+
+```javascript
+npm i @chatscope/chat-ui-kit-react
 ```
