@@ -23,7 +23,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
   -F model="whisper-1" \
   -F file="@/path/to/file/openai.mp3"
 ```
-一直遇到一個問題:    
+一直遇到一個問題，明明有用API_KEY卻一直說我沒有提供:    
 ```
 {
     "error": {
