@@ -23,7 +23,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
   -F model="whisper-1" \
   -F file="@/path/to/file/openai.mp3"
 ```
-需要在PATH中新增Openai_Key，否則會顯示:  
+一直遇到一個問題:    
 ```
 {
     "error": {
@@ -33,4 +33,9 @@ curl https://api.openai.com/v1/audio/transcriptions \
         "code": null
     }
 }
+```
+結果發現是這段打錯 少了一個空格
+```
+"Authorization": "Bearer" + API_KEY -> "Authorization": "Bearer " + API_KEY
+
 ```
