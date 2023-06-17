@@ -45,3 +45,6 @@ type: "insufficient_quota"
 ```
 但程式碼是可以正常運行的，只差在沒有額度而已
 
+https://www.youtube.com/watch?v=Lag9Pj_33hM&list=PL2EvjydS1n0t2vvfrOJJ6OxN7HqWNqC5p&index=7&t=1137s&ab_channel=CooperCodes  
+https://openai.com/blog/introducing-chatgpt-and-whisper-apis  
+https://platform.openai.com/docs/api-reference/completions/create  
