@@ -37,5 +37,15 @@ curl https://api.openai.com/v1/audio/transcriptions \
 結果發現是這段打錯 少了一個空格
 ```
 "Authorization": "Bearer" + API_KEY -> "Authorization": "Bearer " + API_KEY
-
 ```
+但我發現還是不能正常訪問，原因是我沒注意到在Introducing原文裡面有寫到:0.006 $/per min
+```
+error: 
+code: null
+message: 
+"You exceeded your current quota, please check your plan and billing details."
+param: null
+type: "insufficient_quota"
+```
+但程式碼是可以正常運行的，只差在沒有額度而已
+
